@@ -10,20 +10,19 @@ export default function Home() {
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <div className='mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50'>
           <p className='text-sm font-semibold text-gray-700'>
-            Quill is now public!
+            Monochat AI is now public!
           </p>
         </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
-          Chat with your{' '}
-          <span className='text-blue-600'>documents</span>{' '}
-          in seconds.
+          Generate a{' '}
+          <span className='text-blue-600'>smart and innovative</span>{' '}
+          chatbot tailored for your needs.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          Quill allows you to have conversations with any
-          PDF document. Simply upload your file and start
-          asking questions right away.
+          Engineered to understand and meet your unique business requirements, our chatbots 
+          offer smart, intuitive, and real-time interactions, ensuring your audience is 
+          engaged and your services are accessible around the clock. 
         </p>
-
         <Link
           className={buttonVariants({
             size: 'lg',
@@ -90,8 +89,8 @@ export default function Home() {
               Start chatting in minutes
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              Chatting to your PDF files has never been
-              easier than with Quill.
+              Chatting to your AI Assistant has never been
+              easier than with Monochat AI.
             </p>
           </div>
         </div>
@@ -107,14 +106,13 @@ export default function Home() {
                 Sign up for an account
               </span>
               <span className='mt-2 text-zinc-700'>
-                Either starting out with a free plan or
-                choose our{' '}
-                <Link
+              Begin with our complimentary plan or opt for our professional plan to 
+              unlock advanced features.{' '}
+                {/* <Link
                   href='/pricing'
                   className='text-blue-700 underline underline-offset-2'>
                   pro plan
-                </Link>
-                .
+                </Link> */}
               </span>
             </div>
           </li>
@@ -124,11 +122,11 @@ export default function Home() {
                 Step 2
               </span>
               <span className='text-xl font-semibold'>
-                Upload your PDF file
+              Provide Your Business Details
               </span>
               <span className='mt-2 text-zinc-700'>
-                We&apos;ll process your file and make it
-                ready for you to chat with.
+              Share your business specifics and preferences to help us tailor your 
+              AI chatbot accordingly.
               </span>
             </div>
           </li>
@@ -138,11 +136,13 @@ export default function Home() {
                 Step 3
               </span>
               <span className='text-xl font-semibold'>
-                Start asking questions
+              Engage with Your Customized Chatbot
               </span>
               <span className='mt-2 text-zinc-700'>
-                It&apos;s that simple. Try out Quill today -
-                it really takes less than a minute.
+              It&apos;s truly straightforward. Engage with your MonoChat AI 
+              and experience smart, personalized interactions instantly. 
+              Transition to the future of communication effortlessly with 
+              MonoChat AI - your business&apos;s digital companion.
               </span>
             </div>
           </li>
